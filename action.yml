@@ -17,8 +17,11 @@ inputs:
 outputs:
   passed:
     description: 'boolean describing if the test passed or not'
+<<<<<<< HEAD
+=======
 env:
   NODE_AUTH_TOKEN: ${{ inputs.npm_token }}
+>>>>>>> d027b25ef16e4c8ba96f621a4897fc1fad82d501
 runs:
   using: 'node16'
   main: 'dist/index.js'
